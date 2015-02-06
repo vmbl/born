@@ -13,13 +13,13 @@
     "require": {
         "magento-hackathon/magento-composer-installer": "2.*"
     },
-	"extra":{
-		"map":[
-			["app/etc/modules/Adyen_Payment.xml", "app/etc/modules/Adyen_Payment.xml"],
-			["app/code/community/Adyen/Payment/", "app/code/community/Adyen/Payment/"],
-			["skin/frontend/base/default/.*", "skin/frontend/base/default/.*"]
-		]
-	},
+    "extra":{
+	"map":[
+		["app/etc/modules/Adyen_Payment.xml", "app/etc/modules/Adyen_Payment.xml"],
+		["app/code/community/Adyen/Payment/", "app/code/community/Adyen/Payment/"],
+		["skin/frontend/base/default/.*", "skin/frontend/base/default/.*"]
+	]
+    },
     "replace": {
         "connect20/madia_adyen": "1.*"
     }
