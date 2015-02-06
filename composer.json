@@ -1,5 +1,5 @@
 {
-  "name":"my/profiler",
+  "name":"vmbl/born",
   "type":"magento-module",
   "license":"OSL-3.0",
   "homepage":"https://github.com/vmbl/born.git",
@@ -10,9 +10,6 @@
       "email":"balu.venkatesan@borngroup.com"
     }
   ],
-  "require":{
-    "magento-hackathon/magento-composer-installer":"*"
-  },
   "extra":{
 	"map":[
 		["app/code/local/Aoe/Profiler/", "app/code/local/Aoe/Profiler/"]
