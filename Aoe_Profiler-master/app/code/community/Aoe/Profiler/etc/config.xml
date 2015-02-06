@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Aoe_Profiler>
+			<version>0.3.0</version>
+		</Aoe_Profiler>
+	</modules>
+
+	<global>
+		<models>
+			<aoe_profiler>
+				<class>Aoe_Profiler_Model</class>
+			</aoe_profiler>
+		</models>
+		<helpers>
+			<aoe_profiler>
+				<class>Aoe_Profiler_Helper</class>
+			</aoe_profiler>
+		</helpers>
+		<blocks>
+			<aoe_profiler>
+				<class>Aoe_Profiler_Block</class>
+			</aoe_profiler>
+            <core>
+                <rewrite>
+                    <profiler>Aoe_Profiler_Block_Profiler</profiler>
+                </rewrite>
+            </core>
+		</blocks>
+	</global>
+
+	<default>
+		<dev>
+			<debug>
+				<showDisabledMessage>1</showDisabledMessage>
+				<hideLinesFasterThan>10</hideLinesFasterThan>
+				<logInvalidNesting>1</logInvalidNesting>
+                <remoteCallUrlTemplate><![CDATA[http://localhost:8091/?message=%s:%s]]></remoteCallUrlTemplate>
+			</debug>
+		</dev>
+	</default>
+
+</config>
