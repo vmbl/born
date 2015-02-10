@@ -12,9 +12,7 @@
 			"version": "1.0.1",
 			"dist": {
 				"type": "composer",
-				"url": "https://github.com/vmbl/born/tree/Profiler",
-				"reference": null,
-				"shasum": null
+				"url": "https://github.com/vmbl/born/tree/Profiler"
 			},
 			"require": {
 				"magento-hackathon/magento-composer-installer": "*"
