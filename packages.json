@@ -1,9 +1,10 @@
 {
-   "name": "Born - Magento Module",
+   "name": "adyen/payment",
    "homepage": "https://github.com/vmbl",
-   "description": "Please visit https://github.com/magento-hackathon/composer-repository for further informaton.",
    "repositories": [
-      { "type": "composer", "url": "https://github.com/vmbl/born/tree/Profiler" },
+      { "type": "composer", 
+        "url": "https://github.com/vmbl/born/tree/Profiler" 
+      },
 	  {
 		"type": "package",
 		"package": {
