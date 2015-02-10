@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "adyen/payment": {
+            "1.0.1": { @composer.json }
+        }
+    }
+}
