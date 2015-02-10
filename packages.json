@@ -1,6 +1,6 @@
 {
-    "packages": {
-        "adyen/payment": {            
+   "packages": {
+        "vmbl/payment": {            
             "1.0.1": { 
 				"name": "adyen/payment",
 				"version": "1.0.1",
