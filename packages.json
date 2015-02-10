@@ -1,7 +1,25 @@
 {
-    "packages": {
-        "adyen/payment": {
-            "1.0.1": "composer.json"
-        }
-    }
+   "name": "Born - Magento Module",
+   "homepage": "https://github.com/vmbl",
+   "description": "Please visit https://github.com/magento-hackathon/composer-repository for further informaton.",
+   "repositories": [
+      { "type": "composer", "url": "https://github.com/vmbl/born/tree/Profiler" },
+	  {
+		"type": "package",
+		"package": {
+			"name": "adyen/payment",
+			"version": "1.0.1",
+			"dist": {
+				"type": "composer",
+				"url": "https://github.com/vmbl/born/tree/Profiler",
+				"reference": null,
+				"shasum": null
+			},
+			"require": {
+				"magento-hackathon/magento-composer-installer": "*"
+			},
+			"type": "magento-module"
+		}
+	  }
+   ]
 }
