@@ -1,10 +1,22 @@
 {
-	"packages": {
-		"name": "Adyen_Payment",
-		"version" : "*",
-		"stability" : "stable",
-		"authors":[{
-			"name": "Born"
-		}]
-	}
+"packages": {
+    "adyen/payment": {
+        "1.*": {
+            "name": "adyen/payment",
+            "version": "*",
+            "source": {
+                "type": "composer",
+                "url": "https://github.com/vmbl/born/tree/Profiler"
+            },
+            "dist": {
+                "type": "composer",
+                "url": ""https://github.com/vmbl/born/tree/Profiler""
+            },
+            "require": {
+                 "magento-hackathon/magento-composer-installer": "2.*"
+            },
+            "type": "composer"
+            }
+        }
+    }
 }
