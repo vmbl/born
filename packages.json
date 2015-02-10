@@ -1,18 +1,14 @@
 {
-	"repositories": [
-        {
-            "type": "composer",
-            "url": "https://github.com/vmbl/born/tree/Profiler"
+    "packages": {
+        "adyen/payment": {            
+            "1.0.1": { 
+				"name": "adyen/payment",
+				"version": "1.0.1",
+				"dist": {
+					"type": "composer",
+					"url": "https://github.com/vmbl/born/tree/Profiler"
+				}
+             }
         }
-    ],
-	"require": {
-		"adyen/payment": "1.0.1"
-	},  
-	"authors":[{
-		"name": "Aaron Bonor"
-	}],
-	"extra": {
-		"magento-root-dir": "./",
-		"magento-deploystrategy": "copy"                                                                                                                 
-	}
+    }
 }
