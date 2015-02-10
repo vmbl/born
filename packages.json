@@ -9,7 +9,7 @@
             "url": "https://github.com/vmbl/born/tree/Profiler",
             "options": {
                 "ssl": {
-                    "verify_peer": "true"
+                    "verify_peer": "false"
                 }
             }
         },
