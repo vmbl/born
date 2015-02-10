@@ -1,24 +1,18 @@
 {
-   "name": "adyen/payment",
-   "homepage": "https://github.com/vmbl",
-   "repositories": [
-      { "type": "composer", 
-        "url": "https://github.com/vmbl/born/tree/Profiler" 
-      },
-	  {
-		"type": "package",
-		"package": {
-			"name": "adyen/payment",
-			"version": "1.0.1",
-			"dist": {
-				"type": "composer",
-				"url": "https://github.com/vmbl/born/tree/Profiler"
-			},
-			"require": {
-				"magento-hackathon/magento-composer-installer": "*"
-			},
-			"type": "magento-module"
-		}
-	  }
-   ]
+	"repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/vmbl/born/tree/Profiler"
+        }
+    ],
+	"require": {
+		"adyen/payment": "1.0.1"
+	},  
+	"authors":[{
+		"name": "Aaron Bonor"
+	}],
+	"extra": {
+		"magento-root-dir": "./",
+		"magento-deploystrategy": "copy"                                                                                                                 
+	}
 }
