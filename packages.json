@@ -2,35 +2,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://github.com/vmbl/born/tree/Profiler"
-        },
-        {
-            "type": "composer",
-            "url": "https://github.com/vmbl/born/tree/Profiler",
-            "options": {
-                "ssl": {
-                    "verify_peer": "false"
-                }
-            }
-        },
-        {
-            "type": "composer",
-            "url": "https://github.com/vmbl/born/tree/Profiler"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "adyen/payment",
-                "version": "2.1.1",
-                "dist": {
-                    "url": "https://github.com/vmbl/born/tree/Profiler",
-                    "type": "composer"
-                },
-                "source": {
-                    "url": "https://github.com/vmbl/born/tree/Profiler,
-                    "type": "composer",
-                }
-            }
+            "url": "http://packages.firegento.com"
         }
     ]
 }
