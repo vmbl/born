@@ -1,14 +1,11 @@
 {
-   "packages": {
-        "vmbl/payment": {            
-            "1.0.1": { 
-				"name": "adyen/payment",
-				"version": "1.0.1",
-				"dist": {
-					"type": "composer",
-					"url": "https://github.com/vmbl/born/tree/Profiler"
-				}
-             }
-        }
-    }
+	"packages": {
+		"name": "Adyen_Payment",
+		"version" : "*",
+		"stability" : "stable",
+		"authors":[{
+			"name": "Born"
+		}],
+	}
 }
+
