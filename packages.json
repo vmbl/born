@@ -6,11 +6,11 @@
             "version": "*",
             "source": {
                 "type": "composer",
-                "url": "https://github.com/vmbl/born/tree/Profiler"
+                "url": "https://github.com/vmbl/born.git"
             },
             "dist": {
                 "type": "composer",
-                "url": ""https://github.com/vmbl/born/tree/Profiler""
+                "url": "https://github.com/vmbl/born.git"
             },
             "require": {
                  "magento-hackathon/magento-composer-installer": "2.*"
