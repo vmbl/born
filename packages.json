@@ -1,25 +1,7 @@
-[
+{
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "adyen/payment",
-                "version": "*",
-                "dist": {
-                    "url": "https://github.com/vmbl/born/tree/Profiler",
-                    "type": "composer"
-                },
-                "source": {
-                    "url": "https://github.com/vmbl/born/tree/Profiler",
-                    "type": "svn"
-                },
-                "autoload": {
-                    "classmap": ["libs/"]
-                }
-            }
+            "packagist": false
         }
-    ],
-    "require": {
-        "smarty/smarty": "3.1.*"
-    }
-]
+    ]
+}
