@@ -1,16 +1,22 @@
 {
-  "name":"aligent/geoip",
-  "type":"composer",
-  "license":"OSL-3.0",
-  "homepage":"https://github.com/aligent/Aligent_GeoIP",
-  "description":"This module provides a helper for various GeoIP related functions.",
-  "repositories": [
+    "name": "aligent/geoip",
+    "description": "Official Magento Plugin to connect to geoip Service Provider Adyen'.",
+    "type": "magento-module",
+    "homepage": "https://github.com/adyenpayments/magento",
+    "license": "OSL-3.0",
+    "authors": [
         {
-            "type": "composer",
-            "url": "http://packages.firegento.com"
+            "name": "born",
+            "email": "support@born.com"
         }
     ],
-  "require":{
-      "magento-hackathon/magento-composer-installer":"2.*"
-  }
+    "require": {
+        "magento-hackathon/magento-composer-installer": "2.*"
+    },
+    "extra":{
+	"map":[
+		["src/app/etc/modules/Aligent_GeoIP.xml", "app/etc/modules/Aligent_GeoIP.xml"],
+		["src/app/code/local/Aligent/GeoIP", "app/code/local/Aligent/GeoIP"]
+	]
+    }
 }
