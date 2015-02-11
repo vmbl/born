@@ -1,7 +1,19 @@
 {
-    "repositories": [
+	"repositories": [
         {
-            "packagist": false
+            "type": "composer",
+            "url": "https://github.com/vmbl/born",
+            "packagist": "false"
         }
-    ]
+    ],
+	"require": {
+		"aligent/geoip": "*"
+	},  
+	"authors":[{
+		"name": "Born"
+	}],
+	"extra": {
+		"magento-root-dir": "./",
+		"magento-deploystrategy": "copy"                                                                                                                 
+	}
 }
