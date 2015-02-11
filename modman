@@ -1,2 +1,2 @@
 src/app/code/local/Aligent/GeoIP     app/code/local/Aligent/GeoIP
-src/app/etc/modules/*    app/etc/modules/
+src/app/etc/modules/Aligent_GeoIP.xml    app/etc/modules/Aligent_GeoIP.xml

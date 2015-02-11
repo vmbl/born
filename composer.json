@@ -1,6 +1,6 @@
 {
   "name":"aligent/geoip",
-  "type":"vcs",
+  "type":"composer",
   "license":"OSL-3.0",
   "homepage":"https://github.com/aligent/Aligent_GeoIP",
   "description":"This module provides a helper for various GeoIP related functions.",
