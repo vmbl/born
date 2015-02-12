@@ -1,5 +1,5 @@
 {	
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
 	"prefer-stable": true,
     "name": "born/vat",
     "description": "This module is used for removing VAT field during checkout process'.",
