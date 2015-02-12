@@ -1,7 +1,7 @@
 {	
 	"minimum-stability": "stable",
 	"prefer-stable": true,
-    "name": "born/VAT",
+    "name": "born/vat",
     "description": "This module is used for removing VAT field during checkout process'.",
     "type": "magento-module",
     "homepage": "https://github.com/vmbl/born",
