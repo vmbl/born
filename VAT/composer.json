@@ -1,4 +1,5 @@
-{
+{	
+	"minimum-stability": "stable",
     "name": "born/VAT",
     "description": "This module is used for removing VAT field during checkout process'.",
     "type": "magento-module",
