@@ -1,5 +1,5 @@
 {
-    "name": "born/vat",
+    "name": "born/VAT",
     "description": "This module is used for removing VAT field during checkout process'.",
     "type": "magento-module",
     "homepage": "https://github.com/vmbl/born",
