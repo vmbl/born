@@ -1,0 +1,22 @@
+{
+    "name": "born/vat",
+    "description": "This module is used for removing VAT field during checkout process'.",
+    "type": "magento-module",
+    "homepage": "https://github.com/vmbl/born",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Born",
+            "email": "support@born.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "2.*"
+    },
+    "extra":{
+		"map":[
+			["module/app/etc/modules/Born_Vat.xml", "app/etc/modules/Born_Vat.xml"],
+			["module/app/code/community/Born/Vat/", "app/code/community/Born/Vat/"]
+		]
+    }
+}
